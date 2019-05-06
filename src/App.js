@@ -1,6 +1,9 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Title from "./Title";
+import LightSwitch from "./LightSwitch";
+import User from "./User";
 
 function App() {
   return (
@@ -15,6 +18,12 @@ function App() {
           rel="noopener noreferrer"
         />
       </header>
+      <main>
+        <Title content="SOME CONTENT" />
+        <User name="Rob" />
+        <User name="Danny" />
+        <LightSwitch />
+      </main>
     </div>
   );
 }
