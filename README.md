@@ -8,10 +8,12 @@ Technologies used:
 Installation instructions:
 - git clone
 - install dependencies npm install
-- npm star
+- npm start
 
 What's this project is all about: <br>
-Real Time digital clock
+Real Time digital clock with userboard
+- toggle for user presence 
+- toggle for lightswitch
 
 
 
